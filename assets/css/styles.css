@@ -60,7 +60,7 @@ a.nav-item:hover {
 }
 
 .social-container img{
-	max-width:968px;
+	max-width:150%;
 	max-height:175px;
 	margin-bottom:15px;
 }
