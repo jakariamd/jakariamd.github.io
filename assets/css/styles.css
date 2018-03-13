@@ -70,12 +70,22 @@ a.nav-item:hover {
 	max-height: 512px;
 	max-width: 452px;
 }
-
 .project-video {
-	margin: 0 auto 1rem auto;
-	max-height: 512px;
-	max-width: 452px;
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:10px;
+	height:0;
+	overflow:hidden;
 }
+
+.project-video  iframe, .project-video  object, .project-video  embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
 
 .project-text {
 	text-align: justify;
