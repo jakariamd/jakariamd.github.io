@@ -63,6 +63,12 @@ a.nav-item:hover {
 	max-width: 256px;
 }
 
+.project-video {
+	margin: 0 auto 1rem auto;
+	max-height: 512px;
+	max-width: 452px;
+}
+
 .project-text {
 	text-align: justify;
 }
