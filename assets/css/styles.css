@@ -29,6 +29,14 @@ section{
 	background-color: #0E282E;
 }
 
+.section-31 {
+	background-color: #052D3D;
+}
+
+.section-32 {
+	background-color: #0E282E;
+}
+
 .section-4 {
 	background-color: #063647;
 	padding: 0.2rem;
@@ -59,8 +67,8 @@ a.nav-item:hover {
 
 .project-figure {
 	margin: 0 auto 1rem auto;
-	max-height: 256px;
-	max-width: 256px;
+	max-height: 512px;
+	max-width: 452px;
 }
 
 .project-video {
