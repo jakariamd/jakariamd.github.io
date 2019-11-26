@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+
+	<title>Smart Music Cafe</title>
+	<link rel="icon" href="favicon.png" type="image/png">
+	<link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script src="contactform/contactform.js"></script>
+
+</head>
+
+<body>
+	<header class="header" id="header">
+		<!--header-start-->
+		<div class="container">
+			<figure class="logo animated fadeInDown delay-07s">
+				<a href="#"><img src="img/buet.png" alt=""></a>
+			</figure>
+			<h1 class="animated fadeInDown delay-07s">Smart Music Cafe</h1>
+			<ul class="we-create animated fadeInUp delay-1s">
+				<li>Making the music system of our <a href="https://www.facebook.com/RagCornerdeBUET/">Rag Corner</a> smart and better.</li>
+			</ul>
+			<a class="link animated fadeInUp delay-1s servicelink" href="#abstract">Get Started</a>
+		</div>
+	</header>
+	<!--header-end-->
+
+	<nav class="main-nav-outer" id="test">
+		<!--main-nav-start-->
+		<!--
+
+
+				
+
+
+Algorithm
+
+Detailed Pin Diagram
+
+Problems Faced
+
+Group Members Information
+
+Course Teacher 
+		-->
+		<div class="container">
+			<ul class="main-nav">
+				<li><a href="#abstract">Abstract</a></li>
+				<li><a href="#equipments">Equipments</a></li>
+				<li><a href="#work">How it works</a></li>
+				<li><a href="#block">Block Diagram</a></li>
+				<li><a href="#circuit">Circuit Diagram</a></li>
+				<li><a href="#problems">Problems Faced</a></li>
+			</ul>
+			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+		</div>
+	</nav>
+	<!--main-nav-end-->
+
+	<section style="background-color: #E6E6E6;" class="main-section" id="abstract">
+		<div class="container">
+			<h2>Abstract</h2>
+			<div class="row">
+				<div class="col-lg-6 col-sm-6  text-center wow fadeInLeft delay-02s">
+					There is a small , often  unnoticed, corner beside BUET central cafeteria by the library. The students of the senior most undergraduate batch call it their own little place to enjoy the last few days in this lovely campus. Music is  an essential part of this corner. Playing songs on the big speakers from the smartphones bring about some problems. Constant plugging in and out of the devices create sparks that harm the pricey speakers. More than often , the music gets disrupted because of the incoming calls to the phone playing the song. We have come up with a solution to these problems with our Smart Music Cafe System. This system will offer a simple HTTP page to the users to choose and play the songs without having to physically plug in their devices.<br><br><a class="link animated fadeInUp delay-1s servicelink" href="#video">Jump to the video</a>
+				</div>
+				<figure class="col-lg-6 col-sm-6  text-right wow fadeInRight delay-02s">
+					<img src="img/ragCorner.png" alt="">
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<section class="main-section" id="equipments">
+		<!--main-section-start-->
+		<div class="container">
+			<h2>Equipments</h2>
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
+					<div class="service-list">
+						<div class="service-list-col2">
+							<h3>Raspberry Pi 3 B </h3>
+							<p>A single-board computer with wireless LAN. It houses Quad Core 1.2GHz Broadcom BCM2837 64bit CPU, 1GB RAM, BCM43438 wireless LAN, 40 pin extended GPIO and many more features. We run it on Raspbian OS. </p>
+						</div>
+					</div>
+					<div class="service-list">
+						<div class="service-list-col2">
+							<h3>20x4 Alpha-neumeric LCD display</h3>
+							<p>A simple 16 pin lcd display that can show alpha-neumeric charecters with easy-to-use libraries.</p>
+						</div>
+					</div>
+										<div class="service-list">
+						<div class="service-list-col2">
+							<h3>Smartphone or computer</h3>
+							<p>To access the controlling page of the system.</p>
+						</div>
+					</div>
+					<div class="service-list">
+						<div class="service-list-col2">
+							<h3>Audio Speaker</h3>
+							<p>Output device to play the music.</p>
+						</div>
+					</div>
+				</div>
+				<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+					<img src="img/equipments.png" alt="">
+				</figure>
+
+			</div>
+		</div>
+	</section>
+	<!--main-section-end-->
+
+
+
+	<section style="background-color:#E6E6E6;" class="main-section alabaster" id="work">
+		<!--main-section alabaster-start-->
+		<h2>How it works</h2>
+		<div class="container">
+			<div class="row">
+				<P class="padding-b">Our system uses a simple apache server to offer a minimalistic control page with which a user can control everything.</P><br>
+				<div class="featured-box">
+					<div class="featured-box-col1 wow fadeInRight delay-02s">
+						<i class="fa-code"></i>
+					</div>
+					<div class="featured-box-col2 wow fadeInRight delay-02s">
+						<h3>Raspberry pi hosts the server</h3>
+						<p>The Raspberry Pi hosts the apache server with which a user can communicate over HTTP. Our system uses some simple PHP pages to take the commands.  </p>
+					</div>
+				</div>
+				<div class="featured-box">
+					<div class="featured-box-col1 wow fadeInRight delay-04s">
+						<i class="fa-database"></i>
+					</div>
+					<div class="featured-box-col2 wow fadeInRight delay-04s">
+						<h3>Mysql hosts the music database</h3>
+						<p>A MySQL database hosts the names of all the music files currently in the system and also the playlist. It is used for searching and playing the songs. </p>
+					</div>
+				</div>
+				<div class="featured-box">
+					<div class="featured-box-col1 wow fadeInRight delay-06s">
+						<i class="fa-mobile"></i>
+					</div>
+					<div class="featured-box-col2 wow fadeInRight delay-06s">
+						<h3>Connection over wlan</h3>
+						<p>A smartphone or computer can connect to the WLAN created by the Raspberry Pi to access the control site. So every bit of information passed between the system and the user held device is over wifi. </p>
+					</div>
+				</div>
+				<div class="featured-box">
+					<div class="featured-box-col1 wow fadeInRight delay-06s">
+						<i class="fa-play"></i>
+					</div>
+					<div class="featured-box-col2 wow fadeInRight delay-06s">
+						<h3>Python script plays the mucis</h3>
+						<p>A python script checks current player status set by the user and plays, pauses, starts and stops accordingly.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--main-section alabaster-end-->
+
+
+
+	<section class="main-section paddind" id="block">
+		<!--main-section-start-->
+		<h2>Block Diagram</h2>
+		<div class="container">
+			<div class="row">
+				<figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
+					<img src="img/block.png" alt="">
+				</figure>
+			</div>
+		</div>
+	</section>
+	<!--main-section-end-->
+
+
+	<section style="background-color:#E6E6E6;" class="main-section paddind" id="circuit">
+		<!--main-section-start-->
+		<h2>Circuit Diagram</h2>
+		<div class="container">
+			<div class="row">
+				<figure class="col-lg-10 col-sm-6  text-right wow fadeInUp delay-02s">
+					<img src="img/circuit.png" alt="">
+				</figure>
+			</div>
+		</div>
+	</section>
+	<!--main-section client-part-end-->
+
+	<section  class="main-section team" id="video">
+		<div class="container">
+  			<div class="row">
+   				 <div class="col-lg-12 col-sm-6 text-center">
+   					<h2>Video Demonstration</h2>
+    					 <iframe width="100%" height="315" src="https://www.youtube.com/embed/SHUx1rUrFgg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+    			</div>
+    		</div>
+    	</div>
+	</section>
+
+	<section style="background-color:#E6E6E6;" class="main-section" id="problems">
+		<div class="container">
+			<h2>Problems Faced</h2>
+			<div class="row">
+				<ul class="col-lg-10 col-sm-6  text-left wow fadeInUp delay-02s">
+					<li><h3>Current requirements</h3> The Raspberry Pi requires a considerable amount of current to operate with the LCD display attached. Finding a suitable ac-dc adapter was the first problem. </li><br>
+					<li><h3>Setting up things at boot time</h3>The device runs without any graphical interface at the boot time. Setting up the LCD display and starting the servers was our next problem. BASH scripts came to the rescue.</li><br>
+					<li><h3>Passing the commands to the music player</h3>The music player was a simple Python script and the command was coming to the device through PHP pages. At first we attempted to rup the Python script from the PHP codes but that gave rise to some critical problems and brought us face-to-face with some design decisions. We finally decided to use the database as the interface of the two different parts.</li><br>
+				</ul>
+			</div>
+		</div> 
+		</div>
+	</section>
+	<section  class="main-section team" id="team">
+		<!--main-section team-start-->
+		<div class="container">
+			<h2>the team</h2>
+			<h6>Section B1 : Group 2</h6>
+			<div class="row">
+				<div class="col-lg-12 col-sm-6  text-center wow fadeInUp delay-02s">
+					<h3>Abdullahel Kafi</h3> 1305004<br><br>
+					<h3>Md. Khairul Islam</h3>1305010 <br><br>
+					<h3>Arifur Rahman Sujon</h3>1305014 <br><br>
+					<h3>Shahad Ishraq</h3>1305022 <br><br>
+					<h3>Md. Jakaria</h3>1305024<br><br>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section style="background-color:#E6E6E6;"  class="main-section team" id="teachers">
+		<!--main-section team-start-->
+		<div class="container">
+			<h2>Course Teachers</h2>
+			<div class="row">
+				<div class="col-lg-12 col-sm-6  text-center wow fadeInUp delay-02s">
+					<h3><a href="http://cse.buet.ac.bd/faculty/facdetail.php?id=masattar">Md. Abdus Sattar</h3></a><br><br>
+					<h3><a href="http://teacher.buet.ac.bd/sukarnabarua/">Sukarna Barua</a></h3><br><br>
+					<h3><a href="http://cse.buet.ac.bd/faculty/facdetail.php?id=aashik">Md. Aashikur Rahman Azim</h3></a><br><br>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+	
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-logo"><img src="img/parbon.png" alt=""></div>
+			<span class="copyright">&copy; No Rights Reserved</span>
+			<div class="credits">
+				<!--
+          All the links in the footer should remain intact. 
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
+        -->
+				<a href="https://shahadishraq.github.io/">Shahad Ishraq</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('#test').scrollToFixed();
+			$('.res-nav_click').click(function() {
+				$('.main-nav').slideToggle();
+				return false
+
+			});
+
+		});
+	</script>
+
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+	</script>
+
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+			$('.main-nav li a, .servicelink').bind('click', function(event) {
+				var $anchor = $(this);
+
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top - 102
+				}, 1500, 'easeInOutExpo');
+				/*
+				if you don't want to use the easing effects:
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1000);
+				*/
+				if ($(window).width() < 768) {
+					$('.main-nav').hide();
+				}
+				event.preventDefault();
+			});
+		})
+	</script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+
+			var $container = $('.portfolioContainer'),
+				$body = $('body'),
+				colW = 375,
+				columns = null;
+
+
+			$container.isotope({
+				// disable window resizing
+				resizable: true,
+				masonry: {
+					columnWidth: colW
+				}
+			});
+
+			$(window).smartresize(function() {
+				// check if columns has changed
+				var currentColumns = Math.floor(($body.width() - 30) / colW);
+				if (currentColumns !== columns) {
+					// set new column count
+					columns = currentColumns;
+					// apply width to container manually, then trigger relayout
+					$container.width(columns * colW)
+						.isotope('reLayout');
+				}
+
+			}).smartresize(); // trigger resize to set container width
+			$('.portfolioFilter a').click(function() {
+				$('.portfolioFilter .current').removeClass('current');
+				$(this).addClass('current');
+
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+
+					filter: selector,
+				});
+				return false;
+			});
+
+		});
+	</script>
+</body>
+
+</html>
